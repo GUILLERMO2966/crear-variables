@@ -7,5 +7,5 @@ basic.forever(function () {
     T2 = input.temperature()
     basic.pause(5000)
     T3 = input.temperature()
-    basic.showNumber(T1 + (T2 + T3 / 3))
+    basic.showNumber(T1 + T2 + T3 / 3)
 })
